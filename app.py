@@ -8,24 +8,24 @@ def index():
     return render_template('index.html')
 
 @app.route('/about')
-def abou():
+def about():
     return render_template('about.html')
 
 @app.route('/courses')
-def course():
+def courses():
     return render_template('courses.html')
 
 @app.route('/team')
-def tea():
+def team():
     return render_template('team.html')
 
 
 @app.route('/testimonial')
-def testimonia():
+def testimonial():
     return render_template('testimonial.html')
 
 @app.route('/contact')
-def contac():
+def contact():
     return render_template('contact.html')
 
 
