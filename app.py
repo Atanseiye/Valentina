@@ -85,7 +85,6 @@ def show():
     applications = registration.query.all()
     return render_template('show.html', applications=applications)
     
-if __name__ == '__main__':
-    app.run(debug=True)
+
 =======
 >>>>>>> 10221e34e277227893b62b87a403709d7bd03d0f
