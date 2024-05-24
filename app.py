@@ -79,6 +79,7 @@ def join():
         return render_template('form.html')
 
 
+<<<<<<< HEAD
 @app.route('/show')
 def show():
     applications = registration.query.all()
@@ -86,3 +87,5 @@ def show():
     
 if __name__ == '__main__':
     app.run(debug=True)
+=======
+>>>>>>> 10221e34e277227893b62b87a403709d7bd03d0f
