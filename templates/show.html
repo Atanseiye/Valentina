@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form action="/show">
+
+
+        <input type="submit" value="Show all">
+
+    </form> -->
+
+
+    <table>
+        <thead>
+            <th>id</th>
+            <th>Surname</th>
+            <th>Name</th>
+        </thead>
+        {% for application in applications %}
+        <tbody>
+            <td>{{application.id}}</td>
+            <td>{{application.surname}}</td>
+            <td>{{application.f_name}}</td>
+            <td><a href="#">Delete</a></td>
+        </tbody>
+        {% endfor %}
+    </table>
+
+
+<p>
+    
+
+    
+    
+
+
+</p>
+    
+</body>
+</html>

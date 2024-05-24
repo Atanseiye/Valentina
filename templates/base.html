@@ -55,12 +55,12 @@
                     <div class="dropdown-menu fade-down m-0">
                         <a href="{{ url_for('team') }}" class="dropdown-item">Our Teachers</a>
                         <a href="{{ url_for('testimonial') }}" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
+                        <a href="{{ url_for('show') }}" class="dropdown-item">404 Page</a>
                     </div>
                 </div>
                 <a href="{{ url_for('contact') }}" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i
+            <a href="{{ url_for('join') }}" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i
                     class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
