@@ -79,12 +79,8 @@ def join():
         return render_template('form.html')
 
 
-<<<<<<< HEAD
 @app.route('/show')
 def show():
     applications = registration.query.all()
     return render_template('show.html', applications=applications)
     
-
-=======
->>>>>>> 10221e34e277227893b62b87a403709d7bd03d0f
